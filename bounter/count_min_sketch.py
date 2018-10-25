@@ -129,7 +129,7 @@ class CountMinSketch(object):
         return self.cms.get(key)
 
     def __contains__(self, item):
-        return self.cms.get(key)
+        return self.cms.get(item)
 
     def cardinality(self):
         """
